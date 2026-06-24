@@ -765,7 +765,7 @@ body {
 	font-weight: 700;
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: rgba(255, 255, 255, 0.7);
 	margin: 0 0 20px;
 }
 .footer-col ul {
@@ -805,7 +805,7 @@ body {
 .footer-bottom span {
 	font-size: 0.75rem;
 	font-weight: 300;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.5);
 }
 .footer-credits {
 	display: flex;
