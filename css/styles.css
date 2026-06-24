@@ -11,7 +11,7 @@ body {
 	overflow-x: hidden;
 }
 
-/* --- Reveal animations --- */
+/* --- animations --- */
 .reveal {
 	opacity: 0;
 	transform: translateY(32px);
@@ -243,7 +243,6 @@ body {
 	}
 }
 
-/* --- Section layout helpers --- */
 .section-inner {
 	max-width: 1280px;
 	margin: 0 auto;
@@ -276,7 +275,6 @@ body {
 	margin-right: auto;
 }
 
-/* --- Section tag / pill --- */
 .tag {
 	display: inline-block;
 	background: rgba(77, 200, 240, 0.12);
@@ -286,11 +284,10 @@ body {
 	letter-spacing: 0.12em;
 	text-transform: uppercase;
 	border-radius: 999px;
-	padding: 6px 18px;
+	padding: 15px 18px;
 	margin-bottom: 16px;
 }
 
-/* --- Buttons --- */
 .btn-dark-cyan,
 .btn-dark-white,
 .btn-light {
@@ -342,7 +339,6 @@ body {
 	transform: translateY(-2px);
 }
 
-/* --- Problema / Solución section --- */
 .problema-section {
 	padding: 96px 64px;
 	background: #fff;
@@ -441,7 +437,6 @@ body {
 	flex-shrink: 0;
 }
 
-/* --- Features section --- */
 .features-section {
 	padding: 96px 64px;
 	background: #f5f8ff;
@@ -500,7 +495,6 @@ body {
 	stroke-linejoin: round;
 }
 
-/* --- How section --- */
 .how-section {
 	padding: 96px 64px;
 	background: #fff;
@@ -571,7 +565,6 @@ body {
 	margin-top: 64px;
 }
 
-/* --- Benefits section --- */
 .benefits-section {
 	padding: 96px 64px;
 	background: linear-gradient(160deg, #0d2d6b 0%, #1a5bb5 100%);
@@ -617,7 +610,6 @@ body {
 	margin: 0;
 }
 
-/* --- Testimonials section --- */
 .testimonials-section {
 	padding: 96px 64px;
 	background: #fff;
@@ -682,7 +674,6 @@ body {
 	margin: 0;
 }
 
-/* --- CTA section --- */
 .cta-section {
 	padding: 112px 64px;
 	background: linear-gradient(135deg, #0d2d6b 0%, #1a5bb5 60%, #3a98d5 100%);
@@ -726,7 +717,6 @@ body {
 	color: rgba(255, 255, 255, 0.5);
 }
 
-/* --- Footer --- */
 .footer {
 	background: #07193d;
 	padding: 64px 64px 40px;
@@ -822,7 +812,6 @@ body {
 	gap: 24px;
 }
 
-/* --- Decorative bg patterns --- */
 .deco {
 	position: absolute;
 	pointer-events: none;
@@ -837,7 +826,6 @@ body {
 	border-radius: 50%;
 }
 
-/* --- Misc --- */
 ::selection {
 	background: #4dc8f0;
 	color: #0d2d6b;
