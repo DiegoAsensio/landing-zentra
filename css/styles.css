@@ -1,6 +1,16 @@
 * {
 	box-sizing: border-box;
 }
+h1,
+h2,
+h3,
+h4,
+.tag,
+.section-header p,
+.hero-copy p,
+.cta-trust {
+	text-wrap: balance;
+}
 html {
 	scroll-behavior: smooth;
 }
@@ -9,6 +19,7 @@ body {
 	color: #0d2d6b;
 	background: #fff;
 	overflow-x: hidden;
+	padding-top: 72px;
 }
 
 /* --- animations --- */
@@ -130,7 +141,7 @@ body {
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
-	padding: 120px 64px 80px;
+	padding: 60px 64px 80px;
 }
 .hero-bg::before {
 	content: "";
@@ -191,8 +202,10 @@ body {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 24px;
+	list-style: none;
+	padding: 0;
 }
-.hero-trust span {
+.hero-trust li {
 	display: flex;
 	align-items: center;
 	gap: 8px;
@@ -357,6 +370,7 @@ body {
 	line-height: 1.2;
 	margin: 0 0 20px;
 	color: #0d2d6b;
+	max-width: 520px;
 }
 .problema-copy > p {
 	font-size: 1rem;
@@ -364,6 +378,7 @@ body {
 	line-height: 1.7;
 	color: #3a4a6b;
 	margin: 0 0 32px;
+	max-width: 520px;
 }
 .problema-list {
 	list-style: none;
@@ -776,6 +791,9 @@ body {
 	flex-direction: column;
 	gap: 12px;
 }
+.footer-col address {
+	font-style: normal;
+}
 .footer-col a,
 .footer-col span {
 	font-size: 0.875rem;
@@ -844,7 +862,7 @@ body {
 /* --- Responsive --- */
 @media (max-width: 1024px) {
 	.hero-bg {
-		padding: 100px 32px 60px;
+		padding: 48px 32px 60px;
 	}
 	.hero-inner {
 		grid-template-columns: 1fr;
@@ -877,7 +895,7 @@ body {
 
 @media (max-width: 768px) {
 	#navbar {
-		padding: 14px 24px;
+		padding: 14px 20px;
 	}
 	#navbar .nav-links {
 		display: none;
@@ -887,6 +905,20 @@ body {
 	}
 	#navbar .hamburger {
 		display: block;
+	}
+	.hero-bg {
+		padding: 40px 20px 48px;
+	}
+	.problema-section,
+	.features-section,
+	.how-section,
+	.benefits-section,
+	.testimonials-section,
+	.cta-section {
+		padding: 56px 20px;
+	}
+	.footer {
+		padding: 40px 20px 24px;
 	}
 	.problema-grid {
 		grid-template-columns: 1fr;
@@ -914,6 +946,23 @@ body {
 }
 
 @media (max-width: 480px) {
+	#navbar {
+		padding: 12px 16px;
+	}
+	.hero-bg {
+		padding: 32px 16px 40px;
+	}
+	.problema-section,
+	.features-section,
+	.how-section,
+	.benefits-section,
+	.testimonials-section,
+	.cta-section {
+		padding: 48px 16px;
+	}
+	.footer {
+		padding: 36px 16px 24px;
+	}
 	.benefits-grid {
 		grid-template-columns: 1fr;
 	}
